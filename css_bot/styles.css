@@ -1,0 +1,139 @@
+body,html{
+	height:100%;
+	width:100%;
+	background-size:cover;
+
+}
+
+.container{
+	font-family:'Roboto', sans-serif;
+	text-align: center;
+}
+
+.robots{
+	flex-wrap:wrap;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+
+}
+
+.head,
+.left_arm,
+.torso,
+.right_arm,
+.left_leg,
+.right_leg{
+	background-color: #5f93e8;
+}
+
+.head{
+	width:200px;
+	margin:0 auto;
+	height:150px;
+	border-radius: 200px 200px 0 0;
+	margin-bottom: 10px;
+}
+
+.head:hover{
+	width:300px;
+	transition:1s ease-in-out;
+}
+
+.eye{
+	display:flex;
+}
+
+.left_eye, .right_eye{
+	width:20px;
+	height:20px;
+	border-radius:15px;
+	background-color: white;
+}
+
+.left_eye{
+	position:relative;
+	top:100px;
+	left:40px;
+}
+
+.right_eye{
+	position:relative;
+	top:100px;
+	left:120px;
+}
+
+.upperbody{
+	width:300px;
+	height:150px;
+	display:flex;
+	/*background-color: black;*/
+	margin:0 auto;
+}
+
+.torso{
+	width:200px;
+	height:200px;
+	border-radius:0 0 50px 50px;
+	margin-right:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	/*position:relative;
+	top:200px;
+	right:400px;*/
+}
+
+.leftarm, .rightarm{
+	width:40px;
+	height:125px;
+	border-radius: 100px;
+	background-color: #5f93e8;
+}
+
+
+.leftarm:hover{
+	transition: transform 1s;
+	transform: rotate(25deg);
+	/*margin-left:10px;*/
+}
+
+.rightarm:hover{
+	transition: transform 1s;
+	transform: rotate(-25deg);
+	/*margin-right:10px;*/
+}
+
+.lowerbody{
+	width:300px;
+	height:150px;
+	display: flex;
+	/*background-color:black;*/
+	margin:0 auto;
+}
+
+.leftleg, .rightleg{
+	width:50px;
+	height:150px;
+	border-radius:0 0 100px 100px;
+	background-color: #5f93e8;
+}
+
+.leftleg{
+	margin-left:80px;
+}
+
+.rightleg{
+	margin-left:40px;
+}
+
+.leftleg:hover{
+	transition: transform 1s;
+	transform: rotate(25deg);
+}
+
+.rightleg:hover{
+	transition: transform 1s;
+	transform: rotate(-25deg);
+}
+
+/*it too me almost 3 days to get this done*/
